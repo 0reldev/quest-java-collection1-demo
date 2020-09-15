@@ -2,9 +2,12 @@
 
 ## Educational exercise from Wild Code School
 
-This is an exercice to introduce the objects List and ArraList from the Collection Java framework.
+This is an exercice to introduce the objects <code>List</code> and <code>ArrayList</code> from the <code>Collection</code> Java framework.
 
-Instances of a Hero class are created, the Avengers, and they are stored into a List. The purpose is to help Thanos to randomly kill half of them 
-with a finger snap.
+Instances of a <code>Hero</code> class are created, the Avengers, and they are stored into a <code>List</code>. 
+
+The prupose is first to edit the <code>age</code> attribute from the <code>Thor</code> element in the <code>List</code>.
+
+Then, we have to help Thanos to randomly kill half of them with a finger snap.
 
 ![screen capture](https://github.com/0reldev/quest-java-collection1-demo/blob/master/screen-capture.png)
