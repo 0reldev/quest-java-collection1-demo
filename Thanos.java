@@ -24,23 +24,21 @@ public class Thanos {
         heroes.add(hulk);
         heroes.add(doctorStrange);
 
-        // Thor's birthday
         thor.setAge(1501);
         System.out.println("It's Thor's birthday! Thor is now " + thor.getAge() + " years old.\n");
 
-        // random array sorting
         Collections.shuffle(heroes);
 
-        // Finger Snap
         int population = heroes.size();
         int halfPopulation = population/2;
-        for (int person = population - 1; person >= halfPopulation; person--){
+        for (int person = population - 1; person >= halfPopulation; person--) {
+
             heroes.remove(person);
         }
 
-        // Survivors display
-        System.out.println("Afer the Snap, the Avengers who survived are:");
+        System.out.println("After the Snap, the Avengers who survived are:");
         for (Hero hero : heroes) {
+
             System.out.println(hero.getName());
         }
     }

@@ -25,6 +25,7 @@ public class Fastfood {
 
         System.out.println("Lunch size: " + lunch.size());
         for (Food food : lunch) { // iterate though the list
+
             System.out.println(food.getName());
         }
     }
